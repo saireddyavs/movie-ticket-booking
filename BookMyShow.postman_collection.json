@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "50a9e89c-b64b-4a68-bb6d-330b0ac61a74",
+		"name": "BookMyShow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get the list of dates for a specific theater ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/theatres/1/dates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"theatres",
+						"1",
+						"dates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get theaters",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/theatres",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"theatres"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "et the list of movies for a specific theater and date",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/theatres/1/movies/2023-08-20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"theatres",
+						"1",
+						"movies",
+						"2023-08-20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
